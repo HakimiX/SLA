@@ -4,7 +4,7 @@
 
 ## Agreement Overview 
 
-This Agreement represents a Service Level Agreement (SLA) between Group K and Group J for the provisioning of information exchange required to sustain and support the system. 
+This Agreement represents a Service Level Agreement (SLA) between Group K and Group X for the provisioning of information exchange required to sustain and support the system. 
 
 This Agreement remains valid until superseded by a revised agreement mutually endorsed by both groups. 
 
@@ -23,7 +23,7 @@ The purpose of the Agreement is to ensure that the proper elements and mutual co
 ## Stakeholders 
 
 The following Service Provider and Customer are the sole basis for this Agreement and represent the Stakeholders associated with this SLA:
-* IT Service Providers: Group J
+* IT Service Providers: Group X
 * IT Service Customers: Group K
 
 ## Service Agreement 
@@ -39,4 +39,7 @@ __Support Response Time__ – applies to how long it takes Group J to respond wh
 This Service Level Agreement is written in a spirit of partnership. The Service Supplier will always do everything possible to rectify every issue in a timely manner. 
 
 ## Grafana 
+
+Analytics and Monitoring 
+
 
