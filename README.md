@@ -32,8 +32,11 @@ The following detailed service parameters are the responsibility of the Service 
 
 __Uptime__ – applies to servers, cloud services (web hosting) or other parts of the system that are vital. Guaranteed at least 95% uptime for our cloud backup system. 
 
-__Response Time__ – applies to how long it takes Group J to respond when we raise a request for support. Respond to critical problems within 24 hours. 
+__CPU Usage__ - applies to amount of actively used CPU, as percentage of total available CPU. Amount of used CPU time. (CPU used, CPU wait etc.).
 
-__Grafana__
+__Support Response Time__ – applies to how long it takes Group J to respond when we raise a request for support. Respond to critical problems within 24 hours. 
 
 This Service Level Agreement is written in a spirit of partnership. The Service Supplier will always do everything possible to rectify every issue in a timely manner. 
+
+## Grafana 
+
