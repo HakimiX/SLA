@@ -32,7 +32,7 @@ The following detailed service parameters are the responsibility of the Service 
 
 __Uptime__ – applies to servers, cloud services (web hosting) or other parts of the system that are vital. Guaranteed at least 95% uptime for our cloud backup system. 
 
-__CPU Usage__ - applies to amount of actively used CPU, as percentage of total available CPU. Amount of used CPU time. (CPU used, CPU wait etc.).
+__CPU Usage__ - applies to amount of actively used CPU, as percentage of total available CPU. Amount of used CPU time (CPU used, CPU wait etc.). Alert if CPU is above 70% for 5 min. 
 
 __Support Response Time__ – applies to how long it takes Group J to respond when we raise a request for support. Respond to critical problems within 24 hours. 
 
