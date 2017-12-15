@@ -1,6 +1,6 @@
 # Service Level Agreement (SLA)
 
-![Text](https://github.com/HakimiX/SLA/blob/master/Models/SLAModel.jpg)
+![Text](https://github.com/HakimiX/SLA/blob/master/Models/SLA%20-%20Model_update.jpg)
 
 ## Agreement Overview 
 
