@@ -2,6 +2,8 @@
 
 ![Text](https://github.com/HakimiX/SLA/blob/master/Models/SLA%20-%20Model_update.jpg)
 
+[SLA Template Reference](http://www.slatemplate.com/)
+
 ## Agreement Overview 
 
 This Agreement represents a Service Level Agreement (SLA) between Group K and Group X for the provisioning of information exchange required to sustain and support the system. 
