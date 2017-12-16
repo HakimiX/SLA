@@ -25,7 +25,7 @@ The purpose of the Agreement is to ensure that the proper elements and mutual co
 ## Stakeholders 
 
 The following Service Provider and Customer are the sole basis for this Agreement and represent the Stakeholders associated with this SLA:
-* IT Service Providers: Group X
+* IT Service Providers: Group A
 * IT Service Customers: Group K
 
 ## Service Agreement 
