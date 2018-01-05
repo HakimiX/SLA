@@ -42,6 +42,33 @@ This Service Level Agreement is written in a spirit of partnership. The Service 
 
 ## Grafana 
 
-Analytics and Monitoring 
+## Monitoring
 
+Monitoring is crucial for DevOps (Development Operations). It makes it possible to see what is happening in your system at any given time. It gives you an overview of system resources currently used such as CPU, Memory, storage etc. The main purpose of monitoring is detecting problems, notifying possible issues and preventing them. 
+
+Unfortunetly we were not able to setup monitoring for our system. We made use of Docker and were able to install Grafana and Prometheus. They were both exposed on their ports 3000 and 9090. 
+
+![Text](https://github.com/HakimiX/part2/blob/master/Models/docker.jpg)
+
+Then we configured the Prometheus.yml file to point at 165.227.136.184 which is our Hacker News application. We also configured the scrape target to be Prometheus at localhost:9090. 
+
+![Text](https://github.com/HakimiX/part2/blob/master/Models/ymlfile.jpg)
+
+We installed the latest node exporter from [Prometheus](https://prometheus.io/download/#node_exporter), and exposed it on port 9100. Everything looked correct and we could see that everything was running on their respective ports. 
+
+![Text](https://github.com/HakimiX/part2/blob/master/Models/netstat.jpg)
+
+However, when we navigated to Prometheus at `165.227.136.184:9090/targets` we encountered node exporter errors such as `GET http://165.227.136.184:9100/metrics: dial tcp` and `165.227.136.184:9100: i/o timeout`. The Prometheus endpoint worked as intended besides the node exporter errors. 
+
+![Text](https://github.com/HakimiX/part2/blob/master/Models/prometheus.jpg)
+
+Grafana also worked fine, and we were able to get basic HTTP metrics by connecting Grafana to Prometheus. Since we were not able to expose node exporter metrics, we could not configure Grafana to show metrics such as, uptime, storage, CPU, memory etc. 
+
+![Text](https://github.com/HakimiX/part2/blob/master/Models/grafana.jpg)
+
+We could not understand what the problem was, because we created new droplets on digital ocean to test Grafana/Prometheus and it worked fine. Node exporter metrics were exposed on port 9100 and we were able to show CPU, memory and storage metrics on Grafana. We applied the same steps to our Hacker News application, but it didn’t work because of the earlier mentioned node exporter errors. We tried everything possible to fix this, but we were not successful. Below is the metrics we needed: 
+
+![Text](https://github.com/HakimiX/part2/blob/master/Models/curl.jpg)
+
+We have been very frustrated by this problem and are disappointed that we could not set up monitoring. Monitoring has been crucial for the service-level agreement, maintenance and generally development operations. 
 
